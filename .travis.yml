@@ -1,0 +1,23 @@
+# Set the build language to Python
+language: python
+
+# Set the python version
+python:
+  - "3.4"
+  - "3.5"
+  - "3.6"
+  - "3.7"
+
+# Install the codecov pip dependency
+install:
+  - pip install -r requirements.txt
+  - pip install codecov
+  - pip install pytest-cov
+
+# Run the unit test
+script:
+  - pytest --cov=./ tests/
+
+# Push the results back to codecov
+after_success:
+  - codecov
