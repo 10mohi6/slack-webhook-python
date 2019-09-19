@@ -1,5 +1,6 @@
 from unittest import TestCase
 from slack_webhook.slack_webhook import Slack
+# import Slack
 import os
 
 class TestSlack(TestCase):

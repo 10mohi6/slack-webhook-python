@@ -12,11 +12,10 @@ python:
 install:
   - pip install -r requirements.txt
   - pip install codecov
-  - pip install pytest-cov
 
 # Run the unit test
 script:
-  - pytest --cov=./ tests/
+  - python -m pytest --cov=slack_webhook tests/
 
 # Push the results back to codecov
 after_success:
