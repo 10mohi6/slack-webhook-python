@@ -4,3 +4,5 @@ env/
 *.egg-info/
 dist/
 .coverage
+.pytest_cache/
+build/

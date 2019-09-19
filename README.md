@@ -2,7 +2,9 @@
 
 [![PyPI version](https://badge.fury.io/py/slack-webhook.svg)](https://badge.fury.io/py/slack-webhook)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+[![codecov](https://codecov.io/gh/10mohi6/slack-webhook-python/branch/master/graph/badge.svg)](https://codecov.io/gh/10mohi6/slack-webhook-python)
+[![Build Status](https://travis-ci.com/10mohi6/slack-webhook-python.svg?branch=master)](https://travis-ci.com/10mohi6/slack-webhook-python)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/slack-webhook)
 slack-webhook is a python client library for slack api Incoming Webhooks
 
 ## Installation
