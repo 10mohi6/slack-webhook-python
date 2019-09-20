@@ -1,5 +1,5 @@
-from slack.webhook import Slack
-import os
+import os, pytest
+from slack_webhook import Slack
 
 class TestSlack(object):
 
