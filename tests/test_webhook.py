@@ -1,11 +1,9 @@
-from unittest import TestCase
-from slack_webhook.slack_webhook import Slack
-# import Slack
+from slack.webhook import Slack
 import os
 
-class TestSlack(TestCase):
+class TestSlack(object):
 
-    def setUp(self):
+    def setup_method(self, method):
         url = os.environ['SLACK_WEBHOOK_URL']
         self.slack = Slack(url=url)
 
@@ -13,7 +11,7 @@ class TestSlack(TestCase):
 
         expected = 'ok'
         actual = self.slack.post(text="Hello, world.")
-        self.assertEqual(expected, actual)
+        assert expected == actual
 
     def test_post_advanced(self):
 
@@ -54,4 +52,4 @@ class TestSlack(TestCase):
                 }
             ]
         }])
-        self.assertEqual(expected, actual)
+        assert expected == actual
