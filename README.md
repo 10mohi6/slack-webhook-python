@@ -5,6 +5,7 @@
 [![codecov](https://codecov.io/gh/10mohi6/slack-webhook-python/branch/master/graph/badge.svg)](https://codecov.io/gh/10mohi6/slack-webhook-python)
 [![Build Status](https://travis-ci.com/10mohi6/slack-webhook-python.svg?branch=master)](https://travis-ci.com/10mohi6/slack-webhook-python)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/slack-webhook)](https://pypi.org/project/slack-webhook/)
+[![Downloads](https://pepy.tech/badge/slack-webhook)](https://pepy.tech/project/slack-webhook)
 
 slack-webhook is a python client library for slack api Incoming Webhooks on Python 3.5 and above.
 
@@ -15,18 +16,16 @@ slack-webhook is a python client library for slack api Incoming Webhooks on Pyth
 
 ## Usage
 
+#### basic
 ```python
-#
-# basic
-#
 from slack_webhook import Slack
 
 slack = Slack(url='https://hooks.slack.com/services/T00/B00/XXX')
 slack.post(text="Hello, world.")
+```
 
-#
-# advanced
-#
+#### advanced
+```python
 from slack_webhook import Slack
 
 slack = Slack(url='https://hooks.slack.com/services/T00/B00/XXX')
@@ -67,9 +66,8 @@ slack.post(text="Robert DeSoto added a new task",
         ]
     }]
 )
-
-
 ```
+
 ## Getting started
 
 For help getting started with Incoming Webhooks, view our online [documentation](https://api.slack.com/incoming-webhooks).

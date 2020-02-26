@@ -1,13 +1,11 @@
 from setuptools import setup, find_packages
 
-with open('README.md') as f:
-   long_description = f.read()
-
 setup(
     name  = 'slack-webhook',
-    version = '1.0.2',
+    version = '1.0.3',
     description = 'slack-webhook is a python client library for slack api Incoming Webhooks on Python 3.5 and above.',
     long_description = long_description,
+    long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     license = 'MIT',
     author = '10mohi6',
