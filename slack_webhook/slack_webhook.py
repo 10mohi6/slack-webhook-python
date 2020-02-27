@@ -1,8 +1,8 @@
 from urllib.request import Request, urlopen
 import json
 
-class Slack():
 
+class Slack:
     def __init__(self, *, url):
         self.url = url
         self.headers = {"Content-type": "application/json"}

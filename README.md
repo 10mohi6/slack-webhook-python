@@ -16,7 +16,7 @@ slack-webhook is a python client library for slack api Incoming Webhooks on Pyth
 
 ## Usage
 
-#### basic
+### basic
 ```python
 from slack_webhook import Slack
 
@@ -24,7 +24,7 @@ slack = Slack(url='https://hooks.slack.com/services/T00/B00/XXX')
 slack.post(text="Hello, world.")
 ```
 
-#### advanced
+### advanced
 ```python
 from slack_webhook import Slack
 

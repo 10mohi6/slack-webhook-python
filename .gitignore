@@ -6,3 +6,5 @@ dist/
 .coverage
 .pytest_cache/
 build/
+.vscode/
+.mypy_cache/
