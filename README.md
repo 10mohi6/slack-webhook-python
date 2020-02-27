@@ -7,7 +7,7 @@
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/slack-webhook)](https://pypi.org/project/slack-webhook/)
 [![Downloads](https://pepy.tech/badge/slack-webhook)](https://pepy.tech/project/slack-webhook)
 
-slack-webhook is a python client library for slack api Incoming Webhooks on Python 3.5 and above.
+slack-webhook is a python client library for slack api Incoming Webhooks on Python 3.6 and above.
 
 
 ## Installation
