@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="slack-webhook",
-    version="1.0.6",
+    version="1.0.7",
     description="slack-webhook is a python client library for slack api \
         Incoming Webhooks on Python 3.6 and above.",
     long_description=open("README.md").read(),
@@ -23,6 +23,7 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
         "Intended Audience :: Developers",
         "Topic :: Communications :: Chat",
         "Topic :: System :: Networking",
